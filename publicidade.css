@@ -76,192 +76,40 @@ header > div {
     left: 0;
     width: 100%;
     height: 200px;
-    background-image: linear-gradient(#223F7AFF, #223F7AFF 50%, #223F7A00);
+    background-color: #223F7AFF;
     z-index: -1;
 }
 
-#hero {
+main {
+    background-color: #223F7AFF;
     color: var(--color1);
     width: 100%;
-    height: 35rem;
-    position: absolute;
-    background-image: linear-gradient(to right, #223F7AFF, #223F7AFF 35%, #223F7A00 40%, #223F7A00);
+    padding: 200px var(--very-big);
 }
 
-#hero--israel-flag {
-    width: max-content;
-    height: 35rem;
-    z-index: -2;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-#hero--title {
-    width: auto;
-    width: 27rem;
-    margin-left: var(--big);
-    margin-top: var(--very-big);
-}
-
-#hero--title h1 {
+h1 {
     font-weight: 900;
-    font-size: 5rem;
-    -webkit-text-stroke: var(--color1) 1px;
-    margin-bottom: var(--very-small);
-    letter-spacing: 3px;
-}
-
-#hero--title p {
-    font-weight: 100;
-    font-size: 2rem;
-    text-indent: 2ch;
-    text-align: justify;
-    line-height: 2.3rem;
-}
-
-.sections {
-    width: 100%;
-    height: auto;
-    padding: var(--very-big) var(--very-big);
-}
-
-#history {
-    margin-top: 35rem;
-    color: var(--color2);
-    background-color: #effff3;
-}
-
-section h2 {
-    font-weight: 900;
-    font-size: 3.5rem;
-    margin-bottom: var(--normal);
-    color: var(--color2);
-}
-
-#history p {
-    font-weight: 100;
-    font-size: 2rem;
-}
-
-#history img {
-    width: 20rem;
-    height: 20rem;
-    border-radius: 15px;
-    box-shadow: 10px 10px 5px #00000066;
-}
-
-#history--container {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    gap: var(--very-big);
-}
-
-#history--container > div {
-    display: grid;
-    gap: var(--big);
-}
-
-#history--container > div > div {
-    display: flex;
-    align-items: center;
-}
-
-#history--div1 {
-    grid-template-columns: 1fr 20rem;
-}
-
-#history--div2 {
-    grid-template-columns: 20rem 1fr;
-}
-
-#important-figures {
-    background-color: #ebf1fc;
-}
-
-#important-figures--container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: var(--very-big);
-}
-
-.important-figures--card {
-    background-color: var(--color2);
-    border-radius: 15px;
-    padding: var(--very-small);
-    justify-items: center;
-    box-shadow: 10px 10px 5px #00000066;
-    color: var(--color1);
-}
-
-.important-figures--card img {
-    width: auto;
-    height: 10rem;
-    border-radius: 15px;
-    margin-bottom: var(--small);
-}
-
-.important-figures--card p {
-    font-weight: 100;
-}
-
-#praticas-religiosas {
-    background-color: #effff3;
-}
-
-#praticas-religiosas p {
-    font-size: 2rem;
-}
-
-#praticas-religiosas ul {
-    margin-top: var(--big);
-}
-
-#praticas-religiosas ul li {
-    font-size: 1.75rem;
-    margin-top: var(--very-small);
-}
-
-#praticas-religiosas ul li span {
-    font-weight: 600;
-}
-
-#intolerancia {
-    background-color: #ebf1fc;
-}
-
-#intolerancia--container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--very-big);
-}
-
-#intolerancia--container h3 {
     font-size: 3rem;
-    font-weight: normal;
-}
-
-#intolerancia--container p {
-    font-size: 1.3rem;
-}
-
-#principios {
-    background-color: #effff3;
-}
-
-#principios p {
-    font-size: 2rem;
     margin-bottom: var(--small);
 }
 
-#principios ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--big);
+h2 {
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin: var(--very-small) 0 ;
 }
 
-#principios ul li {
-    font-size: 2rem;
+p {
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+a {
+    color: var(--color1);
+}
+
+a:hover {
+    opacity: 70%;
 }
 
 footer {

@@ -13,8 +13,8 @@
     --normal-big: 2.058rem;
     --big: 2.618rem;
     --very-big: 6.854rem;
-    --color1: #EFF6E0;
-    --color2: #18191b;
+    --color1: #242038;
+    --color2: #D2CEE3;
 }
 
 html {
@@ -75,8 +75,8 @@ header > div {
     top: 0;
     left: 0;
     width: 100%;
-    height: 200px;
-    background-image: linear-gradient(#223F7AFF, #223F7AFF 50%, #223F7A00);
+    height: 100px;
+    background-color: #FFFFCBFF;
     z-index: -1;
 }
 
@@ -85,7 +85,7 @@ header > div {
     width: 100%;
     height: 35rem;
     position: absolute;
-    background-image: linear-gradient(to right, #223F7AFF, #223F7AFF 35%, #223F7A00 40%, #223F7A00);
+    background-image: linear-gradient(to right, #FFFFCBFF, #FFFFCBFF 56%, #FFFFCB00 56%, #FFFFCB00);
 }
 
 #hero--israel-flag {
@@ -128,15 +128,15 @@ header > div {
 
 #history {
     margin-top: 35rem;
-    color: var(--color2);
-    background-color: #effff3;
+    color: var(--color1);
+    background-color: #D2F4FF;
 }
 
 section h2 {
     font-weight: 900;
     font-size: 3.5rem;
     margin-bottom: var(--normal);
-    color: var(--color2);
+    color: var(--color1);
 }
 
 #history p {
@@ -176,7 +176,7 @@ section h2 {
 }
 
 #important-figures {
-    background-color: #ebf1fc;
+    background-color: #D1FFEB;
 }
 
 #important-figures--container {
@@ -186,12 +186,12 @@ section h2 {
 }
 
 .important-figures--card {
-    background-color: var(--color2);
+    background-color: var(--color1);
     border-radius: 15px;
     padding: var(--very-small);
     justify-items: center;
     box-shadow: 10px 10px 5px #00000066;
-    color: var(--color1);
+    color: var(--color2);
 }
 
 .important-figures--card img {
@@ -206,31 +206,20 @@ section h2 {
 }
 
 #praticas-religiosas {
-    background-color: #effff3;
+    color: var(--color1);
+    background-color: #D2F4FF;
 }
 
 #praticas-religiosas p {
     font-size: 2rem;
 }
 
-#praticas-religiosas ul {
-    margin-top: var(--big);
-}
-
-#praticas-religiosas ul li {
-    font-size: 1.75rem;
-    margin-top: var(--very-small);
-}
-
-#praticas-religiosas ul li span {
-    font-weight: 600;
-}
-
 #intolerancia {
-    background-color: #ebf1fc;
+    background-color: #D1FFEB;
 }
 
 #intolerancia--container {
+    color: var(--color1);
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: var(--very-big);
@@ -246,7 +235,8 @@ section h2 {
 }
 
 #principios {
-    background-color: #effff3;
+    color: var(--color1);
+    background-color: #D2F4FF;
 }
 
 #principios p {
@@ -275,7 +265,7 @@ footer {
 }
 
 footer a {
-    color: var(--color1);
+    color: var(--color2);
     text-decoration: none;
 }
 
